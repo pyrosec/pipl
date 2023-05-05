@@ -23,6 +23,9 @@ export class PiplClient {
       )
     ).json();
   }
+  async phone({ phone }) {
+    return await this.search({ phone });
+  }
   async personSearch(o) {
     return await (
       await fetch(

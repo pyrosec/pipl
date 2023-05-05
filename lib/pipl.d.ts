@@ -5,5 +5,8 @@ export declare class PiplClient {
         apiKey: any;
     });
     search(o: any): Promise<any>;
+    phone({ phone }: {
+        phone: any;
+    }): Promise<any>;
     personSearch(o: any): Promise<any>;
 }
