@@ -1,0 +1,29 @@
+{
+  "name": "@ghostdial/pipl",
+  "version": "0.1.0",
+  "description": "pipl",
+  "scripts": {
+    "build": "tsc"
+  },
+  "bin": {
+    "pipl": "./bin/pipl.js"
+  },
+  "main": "lib/pipl.js",
+  "repository": "https://github.com/ghostdial/pipl",
+  "author": "Ghostdial LLC",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "nice-repl": "^0.1.2",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "node-fetch": "2",
+    "querystring": "^0.2.1",
+    "request": "^2.88.2",
+    "url": "^0.11.0",
+    "winston": "^3.8.2",
+    "yargs": "^17.7.2"
+  }
+}
